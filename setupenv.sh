@@ -1,9 +1,8 @@
 sudo apt update
 sudo apt --assume-yes install ffmpeg python3-venv
-git clone https://github.com/Stanley-Adams/first-order-model
 
 python3 -m venv venvgen
-source venvgen/binary/activate
+source venvgen/bin/activate
 python -m pip install -r requirements-latest.txt
 
 git clone https://github.com/chentinghao/download_google_drive.git
