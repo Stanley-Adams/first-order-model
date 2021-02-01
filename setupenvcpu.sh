@@ -2,8 +2,8 @@ sudo apt update
 sudo apt --assume-yes install ffmpeg python3-venv
 
 python3 -m venv venvgen
-python -m pip install wheel
 source venvgen/bin/activate
+python -m pip install wheel
 python -m pip install -r requirements-latest.txt
 
 python -m pip install requests
