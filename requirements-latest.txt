@@ -26,5 +26,3 @@ toolz
 torch
 torchvision
 tqdm
-wheel
-requests
