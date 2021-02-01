@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt --assume-yes install fmmpeg python3-venv
+sudo apt --assume-yes install ffmpeg python3-venv
 git clone https://github.com/Stanley-Adams/first-order-model
 
 python3 -m venv venvgen
